@@ -1,0 +1,21 @@
+{
+    "name": "norby/mailbox",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "ext-imap": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varga Norbert",
+            "email": "norby004@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Norby\\": "src/"
+        }
+    }
+}
